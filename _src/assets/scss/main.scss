@@ -79,20 +79,22 @@ a{
 
 //FOOTER
 .footer{
-    margin: 0 370px;
     display: flex;
     justify-content: space-between;
 }
 
 //MEDIA QUERIES
 @media all and (max-width: 320px){
+
+    .principal-column{
+        margin: 0 15px;
+    }
     .grid-section{
         grid-template-columns: repeat(5, 1fr);
         grid-template-rows: repeat(5, 1fr);
         text-align: center;
     }
-   
-
+  
     .title-section-2{
         grid-column: span 5;
         text-align: center;
@@ -115,7 +117,20 @@ a{
         text-align: center;
     }
 
+    .footer{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
 }
+
+@media all and (max-width: 768px){
+    .principal-column{
+        margin: 0 39px;
+    }
+}
+
+
 
 
 
