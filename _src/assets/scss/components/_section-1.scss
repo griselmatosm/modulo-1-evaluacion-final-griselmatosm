@@ -1,6 +1,39 @@
 //SECTION-1
 
 .section-1 {
-    margin: auto;
-    max-width: 730px;
+  margin: auto;
+  max-width: 730px;
+  p:first-child{
+    font-family: 'Roboto', ;
+    font-size: 16px;
+    line-height: 1.88;
+    color: #8ccbea;
   }
+  h2{
+    font-family: "Roboto Slab";
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1.41;
+    color: black;
+  }
+  p{
+    font-family: "Roboto";
+    font-size: 20px;
+    line-height: 1.5;
+    color: #4a4a4a;
+  }
+  .go{
+    width: 160px;
+    height: 45px;
+    border-radius: 22.5px;
+    border: solid 2px #f26002;
+    text-align: center;
+    a{
+      font-family: "Roboto";
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 2.25;
+      color: #f26002;
+    }
+  }
+}
