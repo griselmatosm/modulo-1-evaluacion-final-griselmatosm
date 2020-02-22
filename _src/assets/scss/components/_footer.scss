@@ -1,6 +1,7 @@
 //FOOTER
 .footer{
   background-color: #304268;
+  height: 240px;
   .arrow-up{
     width: 45px;
     height: 45px;
@@ -21,10 +22,8 @@
     font-size: 14px;
     line-height: 2.14;
     color: white;
-    margin-top: 45px;
     padding-bottom: 45px;
     span{
-      font-family: "ZapfDingbatsITC";
       color: #f26002;
     }
     .nav-menu, .social-media{
