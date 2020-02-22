@@ -1,5 +1,41 @@
 //FOOTER
-.end-container {
+.footer{
+  background-color: #304268;
+  .arrow-up{
+    width: 45px;
+    height: 45px;
+    border-radius: 22.5px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // position: relative;
+    transform: translate(1642%, -50% );
+  }
+  .end-container {
     display: flex;
     justify-content: space-between;
+    max-width: 540px;
+    margin: auto;
+    font-family: "Roboto" ;
+    font-size: 14px;
+    line-height: 2.14;
+    color: white;
+    margin-top: 45px;
+    padding-bottom: 45px;
+    span{
+      font-family: "ZapfDingbatsITC";
+      color: #f26002;
+    }
+    .nav-menu, .social-media{
+      font-family: "Roboto";
+      font-size: 16px;
+      line-height: 1.88;
+      letter-spacing: normal;
+      text-transform: uppercase;
+      a{
+        color: white;
+      }
+    }
   }
+}
