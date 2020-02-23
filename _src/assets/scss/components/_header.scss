@@ -20,8 +20,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 730px;
+    width: 730px;
     padding-top: 300px;
+    padding-right: 275px;
+    padding-left: 275px;
     h1 {
       text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
       font-family: "Roboto Slab";
@@ -30,24 +32,24 @@
       line-height: 1.32;
       text-align: center;
       color: white;
-      text-transform: uppercase;
+      text-transform: $textUppercase;
     }
     p {
-      font-family: "Roboto";
+      font-family: $fontMain;
       font-size: 24px;
       text-align: center;
-      color: white;
+      color: $colorPrimary;
     }
     .scroll-down {
       width: 45px;
       height: 45px;
       border-radius: 22.5px;
-      background-color: white;
+      background-color: $colorPrimary;
       display: flex;
       justify-content: center;
       align-items: center;
-      position: relative;
-      top: 30px;
+      position: absolute;
+      top: 92.4%;
     }
   }
 }
