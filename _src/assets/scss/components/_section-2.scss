@@ -1,7 +1,6 @@
 //SECTION-2
 .section-2{
     max-width: 100vw;
-    height: 427px;
     padding-left: 85px;
     padding-right: 85px;
     background-color: $backgroundSection;
@@ -37,7 +36,6 @@
     }
     .reason{
       grid-column: span 1;
-      grid-row: 2 / 3;
     }
     .button-reasons {
       margin: auto;
