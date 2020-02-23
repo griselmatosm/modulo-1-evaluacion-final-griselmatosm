@@ -1,0 +1,154 @@
+//MEDIA QUERIES
+@media all and (max-width: 320px) {
+    .header {
+      .hero {
+        width: 290px;
+        padding-top: 284px;
+        h1 {
+          font-size: 42px;
+          line-height: 1.31;
+        }
+        p {
+          font-size: 16px;
+        }
+        .scroll-down {
+          top: 82.7%;
+        }
+      }
+    }
+    .section-1 {
+      height: 376px;
+      width: 290px;
+      padding-right: 15px;
+      padding-left: 15px;
+      p:first-child {
+        font-size: 14px;
+        line-height: 30px;
+        margin-top: 30px;
+      }
+      h2 {
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 15px;
+      }
+      p {
+        font-size: 18px;
+        line-height: 30px;
+      }
+      .go {
+        width: 76px;
+        margin-bottom: 45px;
+        a {
+          padding: 1px 22px;
+        }
+      }
+    }
+  
+    .section-2 {
+      height: 624px;
+      padding-left: 15px;
+      padding-right: 15px;
+      h4,
+      p {
+        font-size: 18px;
+        line-height: 1.67;
+      }
+      .title-section-2 {
+        font-size: 24px;
+        line-height: 1.25;
+        padding-top: 30px;
+      }
+      .reasons {
+        grid-template-rows: repeat(3, 1fr);
+        .reason-1 {
+          grid-column: span 3;
+          grid-row: 1 / 2;
+        }
+        .reason-2 {
+          grid-column: span 3;
+          grid-row: 2 / 3;
+        }
+        .reason-3 {
+          grid-column: span 3;
+          grid-row: 3 / 4;
+        }
+      }
+      .button-reasons {
+        width: 184px;
+        height: 45px;
+        margin-top: 45px;
+        a {
+          padding: 10px 30px;
+        }
+      }
+    }
+    .footer {
+      height: 465px;
+      padding-left: 15px;
+      padding-right: 15px;
+      .end-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        padding-top: 60px;
+        padding-bottom: 45px;
+      }
+    }
+  }
+  
+  @media all and (max-width: 768px) {
+    .header {
+      .hero {
+        width: 690px;
+        h1 {
+          font-size: 80px;
+          line-height: 1.33;
+        }
+        .scroll-down {
+          top: 88.3%;
+        }
+      }
+    }
+    .section-1 {
+      // max-width: 690px;
+      height: 330px;
+      padding-left: 39px;
+      padding-right: 39px;
+      p:first-child {
+        font-size: 14px;
+        line-height: 2.14;
+        margin-top: 30px;
+      }
+      h2 {
+        font-size: 26px;
+        line-height: 1.73;
+      }
+      p {
+        font-size: 20px;
+        line-height: 1.5;
+      }
+      .go {
+        width: 91px;
+      }
+    }
+    .section-2 {
+      height: 397px;
+      padding-left: 85px;
+      padding-right: 85px;
+      h4 {
+        font-size: 26px;
+        line-height: 1.25;
+      }
+      .title-section-2 {
+        font-size: 26px;
+        line-height: 1.73;
+        padding-top: 30x;
+        margin-bottom: 45px;
+      }
+    }
+    .footer {
+      padding-left: 39px;
+      padding-right: 39px;
+    }
+  }
+  

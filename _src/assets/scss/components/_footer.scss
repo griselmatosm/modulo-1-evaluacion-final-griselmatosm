@@ -1,40 +1,44 @@
 //FOOTER
 .footer{
-  background-color: #304268;
+  background-color: $backgroundFooter;
   height: 240px;
+  position: relative;
   .arrow-up{
-    width: 45px;
-    height: 45px;
-    border-radius: 22.5px;
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    // position: relative;
-    transform: translate(1642%, -50% );
+      width: 45px;
+      height: 45px;
+      border-radius: 22.5px;
+      background-color: $colorPrimary;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: -22.5px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
   }
   .end-container {
     display: flex;
-    justify-content: space-between;
-    max-width: 540px;
+    justify-content: space-around;
     margin: auto;
-    font-family: "Roboto" ;
+    font-family: $fontMain;
     font-size: 14px;
     line-height: 2.14;
     color: white;
     padding-bottom: 45px;
+    padding-top: 45px;
     span{
-      color: #f26002;
+      color: $colorTertiary;
     }
     .nav-menu, .social-media{
-      font-family: "Roboto";
+      font-family: $fontMain;
       font-size: 16px;
       line-height: 1.88;
       letter-spacing: normal;
-      text-transform: uppercase;
+      text-transform: $textUppercase;
       a{
-        color: white;
+        color: $colorPrimary;
       }
     }
   }
-}
+

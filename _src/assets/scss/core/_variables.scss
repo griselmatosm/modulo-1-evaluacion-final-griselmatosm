@@ -1,6 +1,15 @@
 // fonts
-$font-main: "Roboto", sans-serif;
+$fontMain: "Roboto";
+$fontMinor: "Roboto Slab";
 
 // colors
-$color-white: #f3f4f5;
-$color-secondary: #999;
+$colorPrimary: white;
+$colorSecondary: black;
+$colorTertiary: #f26002; 
+
+// text-transform
+$textUppercase: uppercase;
+
+//backgrounds
+$backgroundSection: #eff9ff;
+$backgroundFooter: #304268;
