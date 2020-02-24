@@ -36,6 +36,7 @@
     }
     .reason{
       grid-column: span 1;
+      max-width: 352px;
     }
     .button-reasons {
       margin: auto;
@@ -53,12 +54,12 @@
       transition: ease .5s;
       grid-column: span 3;
       &:hover{
-        background-color: $colorPrimary;
-        border: $colorTertiary 2px solid;
+        background-color: $backgroundFooter;
+        // border: $colorTertiary 2px solid;
       }
       .link-reasons{
         color:$colorPrimary;
-        padding: 16px 64px;
+        padding: 10px 65px;
         &:hover{
           color: $colorTertiary;
         }

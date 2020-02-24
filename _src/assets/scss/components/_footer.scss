@@ -15,6 +15,10 @@
       top: -22.5px;
       left: 50%;
       transform: translateX(-50%);
+      animation-name: button-animate;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+
     }
   }
   .end-container {
@@ -38,6 +42,14 @@
       text-transform: $textUppercase;
       .link-menu{
         color: $colorPrimary;
+      }
+    }
+    @keyframes button-animate {
+      from {
+         top: 10px;
+      }
+      to {
+        bottom: 5px;
       }
     }
   }

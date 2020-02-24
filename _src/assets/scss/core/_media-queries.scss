@@ -1,5 +1,5 @@
 //MEDIA QUERIES
-@media all and (max-width: 320px) {
+@media all and (max-width: 768px) {
   .header {
     .hero {
       padding-top: 284px;
@@ -20,7 +20,6 @@
     }
   }
   .section-1 {
-    height: 376px;
     width: 290px;
     padding-right: 15px;
     padding-left: 15px;
@@ -47,9 +46,6 @@
     }
   }
   .section-2 {
-    height: 624px;
-    padding-left: 15px;
-    padding-right: 15px;
     .title-reason, .p-reason{
       font-size: 18px;
       line-height: 1.67;
@@ -65,11 +61,10 @@
   }
   .button-reasons {
     width: 184px;
-    height: 45px;
     margin-top: 45px;
-    .link-reasons {
-      padding: 10px 30px;
-    }
+    // .link-reasons {
+    //   padding: 10px 42px;
+    // }
   }
   .footer {
     height: 465px;
@@ -85,11 +80,12 @@
   }
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 1200px) {
   .header {
     .hero {
       padding-right: 39px;
       padding-left: 39px;
+      margin-top: 63px;
       .title-hero {
         font-size: 80px;
         line-height: 1.33;
@@ -100,8 +96,6 @@
     }
   }
   .section-1 {
-    // max-width: 690px;
-    height: 330px;
     padding-left: 39px;
     padding-right: 39px;
     .p1-section-1 {
@@ -125,14 +119,20 @@
     padding-left: 85px;
     padding-right: 85px;
     .title-reason {
-      font-size: 26px;
+      font-size: 24px;
       line-height: 1.25;
     }
     .title-section-2 {
-      font-size: 26px;
+      font-size: 24px;
       line-height: 1.73;
       padding-top: 30x;
       margin-bottom: 45px;
+    }
+    .button-reasons {
+      width: 210px;
+      .link-reasons{
+        padding: 10px 42px;
+      }
     }
   }
   .footer {
