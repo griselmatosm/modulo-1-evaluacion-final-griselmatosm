@@ -139,5 +139,16 @@
   .footer {
     padding-left: 39px;
     padding-right: 39px;
+    flex-direction: column;
+    .end-container{
+      text-align: center;
+    }
+    .copy {
+      order: 3;
+    }
+    .nav-menu,
+    .social-media {
+      padding-bottom: 30px;
+    }
   }
 }
