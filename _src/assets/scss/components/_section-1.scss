@@ -5,13 +5,13 @@
   height: 360px;
   padding-left: 275px;
   padding-right: 275px;
-  p:first-child{
+  .p1-section-1{
     font-family: $fontMain ;    font-size: 16px;
     line-height: 1.88;
     color: #8ccbea;
     margin-top: 60px;
   }
-  h2{
+  .title-section-1{
     font-family: $fontMinor;
     font-size: 32px;
     font-weight: bold;
@@ -19,7 +19,7 @@
     color: $colorSecondary;
     margin-bottom: 30px;
   }
-  p{
+  .p2-section-1{
     font-family: $fontMain;
     font-size: 20px;
     line-height: 1.5;
@@ -40,7 +40,7 @@
       background-color: $colorTertiary;
       transform: scale(1.1);
     }
-    a{
+    .go-link{
       font-family: $fontMain;
       font-size: 20px;
       font-weight: 500;

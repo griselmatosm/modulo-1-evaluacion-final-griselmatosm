@@ -7,11 +7,11 @@
       padding-left: 0;
       margin-left: 15px;
       margin-right: 15px;
-      h1 {
+      .title-hero {
         font-size: 42px;
         line-height: 1.31;
       }
-      p {
+      .description {
         font-size: 16px;
       }
       .scroll-down {
@@ -24,24 +24,24 @@
     width: 290px;
     padding-right: 15px;
     padding-left: 15px;
-    p:first-child {
+    .p1-section-1 {
       font-size: 14px;
       line-height: 30px;
       margin-top: 30px;
     }
-    h2 {
+    .title-section-1 {
       font-size: 24px;
       line-height: 30px;
       margin-bottom: 15px;
     }
-    p {
+    .p2-section-1 {
       font-size: 18px;
       line-height: 30px;
     }
     .go {
       width: 76px;
       margin-bottom: 45px;
-      a {
+      .go-link {
         padding: 1px 22px;
       }
     }
@@ -50,8 +50,7 @@
     height: 624px;
     padding-left: 15px;
     padding-right: 15px;
-    h4,
-    p {
+    .title-reason, .p-reason{
       font-size: 18px;
       line-height: 1.67;
     }
@@ -68,7 +67,7 @@
     width: 184px;
     height: 45px;
     margin-top: 45px;
-    a {
+    .link-reasons {
       padding: 10px 30px;
     }
   }
@@ -91,7 +90,7 @@
     .hero {
       padding-right: 39px;
       padding-left: 39px;
-      h1 {
+      .title-hero {
         font-size: 80px;
         line-height: 1.33;
       }
@@ -105,16 +104,16 @@
     height: 330px;
     padding-left: 39px;
     padding-right: 39px;
-    p:first-child {
+    .p1-section-1 {
       font-size: 14px;
       line-height: 2.14;
       margin-top: 30px;
     }
-    h2 {
+    .title-section-1 {
       font-size: 26px;
       line-height: 1.73;
     }
-    p {
+    .p2-section-1{
       font-size: 20px;
       line-height: 1.5;
     }
@@ -125,7 +124,7 @@
   .section-2 {
     padding-left: 85px;
     padding-right: 85px;
-    h4 {
+    .title-reason {
       font-size: 26px;
       line-height: 1.25;
     }

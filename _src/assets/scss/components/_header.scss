@@ -23,7 +23,7 @@
     padding-top: 300px;
     padding-right: 275px;
     padding-left: 275px;
-    h1 {
+    .title-hero {
       text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
       font-family: "Roboto Slab";
       font-size: 100px;
@@ -33,7 +33,7 @@
       color: white;
       text-transform: $textUppercase;
     }
-    p {
+    .description {
       font-family: $fontMain;
       font-size: 24px;
       text-align: center;
